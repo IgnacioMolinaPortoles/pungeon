@@ -1,0 +1,49 @@
+.App {
+  background: #25131a;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.farm {
+  position: absolute;
+  width: 1440px;
+  height: 726px;
+  left: 0;
+  top: 0;
+}
+
+.field-container {
+  position: absolute;
+  width: 83px;
+  height: 147px;
+  align-items: center;
+  transform: rotateZ(301deg);
+  top: 302px;
+  left: 42px;
+}
+
+.tokens {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 50px;
+  margin-bottom: 40px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.connect-background {
+  background: rgba(0, 0, 0, 0.3);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+}

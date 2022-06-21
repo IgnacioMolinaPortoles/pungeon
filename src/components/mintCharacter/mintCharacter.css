@@ -1,0 +1,35 @@
+.character {
+  width: 130px;
+  image-rendering: pixelated;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.character:hover {
+    background-image: url("../../assets/images/utils/selectBorder.png");
+    width: 130px;
+    image-rendering: pixelated;
+    background-size: contain;
+}
+
+.mint-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.character-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mint-title {
+  color: white;
+  margin-top: 50px;
+  position: absolute;
+  top: 0;
+}

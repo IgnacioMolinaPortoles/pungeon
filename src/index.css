@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family:"PressStart2P-Regular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+.transfer-button {
+  font-family:"PressStart2P-Regular";
+  color: white;
+  font-size: 12px;
+  background: black;
+  padding: 13px;
+  border-radius: 5px;
+  cursor: pointer;
+  border-width: 0px;
+}
+
+
+@font-face {
+  font-family: "PressStart2P-Regular";
+  src: local("PressStart2P-Regular"),
+   url("../src/assets/fonts/Press_Start_2P/PressStart2P-Regular.ttf") format("truetype");
+  font-weight: normal;
+  }
