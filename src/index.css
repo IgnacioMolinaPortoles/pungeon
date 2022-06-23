@@ -1,13 +1,16 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
-  font-family:"PressStart2P-Regular";
+  font-family: "PressStart2P-Regular";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
 }
 
 .transfer-button {
-  font-family:"PressStart2P-Regular";
+  font-family: "PressStart2P-Regular";
   color: white;
   font-size: 12px;
   background: black;
@@ -17,10 +20,15 @@ body {
   border-width: 0px;
 }
 
-
 @font-face {
   font-family: "PressStart2P-Regular";
   src: local("PressStart2P-Regular"),
-   url("../src/assets/fonts/Press_Start_2P/PressStart2P-Regular.ttf") format("truetype");
+    url("../src/assets/fonts/Press_Start_2P/PressStart2P-Regular.ttf")
+      format("truetype");
   font-weight: normal;
-  }
+}
+
+p {
+  line-height: 20px;
+  letter-spacing: 1px;
+}

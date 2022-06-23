@@ -6,7 +6,7 @@
 }
 
 .navContainer {
-  margin-left: 10rem;
+  margin-left: 5rem;
   justify-content: flex-start;
   display: flex;
   width: 100%;
@@ -16,8 +16,54 @@
   font-size: 20px;
 }
 
+.navItem {
+  text-decoration: none;
+  color: black;
+}
+
+.playContainer {
+  display: flex;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.aboutContainer {
+  background: #9e6a68bd;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+}
+
+.footerContainer {
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5rem;
+}
+
+.landingPlayButton {
+  font-size: 18px;
+  padding: 20px;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
 .heroTitle {
-    font-size: 40px;
+  font-size: 40px;
+}
+
+.heroDescription {
+  margin-top: 50px;
+  line-height: 20px;
+}
+
+.heroInfo {
+  margin-right: 50px;
+  max-width: 500px;
+  letter-spacing: 1px;
 }
 
 .dungeonImage {
@@ -30,7 +76,7 @@
   position: relative;
   height: 100%;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 75px;
 }
 
 .heroContainer {
@@ -40,4 +86,15 @@
   width: 100%;
   margin-left: 15rem;
   margin-right: 15rem;
+}
+
+.icon {
+  image-rendering: pixelated;
+  width: 40px;
+  margin-right: 50px;
+}
+
+.myInfo {
+    display: flex;
+    flex-direction: column;
 }
